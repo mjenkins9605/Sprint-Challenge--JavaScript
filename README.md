@@ -1,3 +1,4 @@
+Michael Jenkins
 # Sprint Challenge: JavaScript Fundamentals
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
@@ -30,13 +31,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    forEach does not return anything, map returns a new array.
+
+
 2. What is the difference between a function and a method?
+
+    A method implicitly pass the object it was called and can operate on data within the class.
+
 
 3. What is closure?
 
+    The inner function has access to the other function's variable.
+
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. When you inoke a function declaration or a function expression the 'this' keyword will be bound to the global object, which in the browser is the window object.
+    2. When you invoke a method the 'this' value will be bound to that object.
+    3. We can explicitly set what the 'this' keyword will be bound to using one of the following: '.call()', '.apply()', '.bind()'
+    4. When a function invocation is proceeded by the new keyword this will be bound to the newly created object.
+
+
 5. Why do we need super() in an extended class?
+
+    Used as a function to call the parent class and it's parameters to pass on to a child.
+
 
 ## Project Set up
 
