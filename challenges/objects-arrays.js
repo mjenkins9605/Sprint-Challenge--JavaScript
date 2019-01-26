@@ -1,4 +1,5 @@
-// ==== Objects ====
+console.log('');
+console.log('==== Objects ====');
 
 /* 
   Given the following information about dinosaurs, create 3 objects: 
@@ -58,7 +59,8 @@ console.log(tyrannosaurus.period);
 console.log(tyrannosaurus.roar());
 
 
-// ==== Arrays ====
+console.log('');
+console.log('==== Arrays ====');
 
 // Given an array of college graduates.  Complete the following requests WITHOUT using any array methods like .forEach(), .map(), .reduce(), .filter()
 
@@ -106,7 +108,8 @@ for (let i = 0; i < graduates.length; i++) {
 console.log(uni);
 
 
-// ==== ADVANCED Array Methods ====
+console.log('');
+console.log('==== ADVANCED Array Methods ====');
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
 
